@@ -6,7 +6,7 @@ namespace MiniCasino.Backoffice.Web.Controllers
     {
         public IActionResult Index()
         {
-            return Content("MiniCasino Backoffice is running ✅");
+            return View();
         }
     }
 }
